@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition </title>
+</head>
+<style>
+  .container 
+  {
+    background-color:blue;
+    height:500px;
+    width:1000px;
+    position:relative;
+
+  }
+  .box 
+  {
+    width:100px;
+    height:100px;
+    background-color:red;
+    border-radius:50%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    animation:animationX 3s linear infinite, 
+              animationY 1s ease-out infinite alternate ;
+  }
+  
+ @keyframes animationX
+  {
+  from 
+  {
+    left:0;
+  }
+  to 
+  {
+     left:100%;
+
+  }
+}
+@keyframes animationY
+{
+  from 
+  {
+    bottom:0;
+  }
+  to 
+  {
+    bottom:100%;
+  }
+  
+}
+</style>
+<body>
+   <div class="container">
+    <div class="box">
+    
+    </div>
+   </div>
+</body>
+</html>

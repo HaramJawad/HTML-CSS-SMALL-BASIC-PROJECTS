@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #7075ac;
+    color: white;
+  }
+
+  .container {
+    background-color: #7075ac;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #7075ac;
+  }
+
+  .cards {
+    background-color: #7075ac;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+
+  }
+
+  .CARD {
+    background-color: rgb(26, 24, 24);
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(33% - 40px);
+    /* Flexible layout */
+    max-width: 300px;
+    /* Prevent cards from getting too wide */
+    border: 2px solid rgb(26, 24, 24);
+  }
+
+  .CARD h3 {
+    margin-bottom: 10px;
+  }
+
+
+  .CARD h1 {
+    margin: 10px 0;
+  }
+
+  .CARD ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+
+
+  .CARD li {
+    margin-bottom: 10px;
+  }
+
+  .CARD button {
+    width: 100%;
+    max-width: 160px;
+    background-color: crimson;
+    height: 8%;
+    border: 2px solid crimson;
+    color: white;
+    margin-left: 41px;
+    margin-top: 30px;
+  }
+
+  .CARD button:hover {
+    background-color: darkred;
+  }
+
+  @media (max-width: 768px) {
+    .CARD {
+      flex: 1 1 100%;
+      /* Make cards full width on smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .CARD h1 {
+      font-size: 1.5rem;
+    }
+
+    .CARD button {
+      font-size: 0.9rem;
+    }
+
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1> Choose your plan</h1>
+    <div class="cards">
+      <div class=" CARD">
+        <h3>Starter</h3>
+        <h1>$19 <span> /month </span> </h1>
+        <ul>
+          <li>1 Website</li>
+          <li>10GB Disk Space</li>
+          <li>Free Email Address</li>
+          <li>Basic Wed Builder</li>
+          <li>No SSL Certificate</li>
+          <li>Limited Support</li>
+        </ul>
+        <button>Add To Cart</button>
+      </div>
+      <div class=" CARD">
+        <h3>Advanced</h3>
+        <h1>$29 <span> /month </span> </h1>
+        <ul>
+          <li>100 Website</li>
+          <li>50GB Disk Space</li>
+          <li>Free Email Address</li>
+          <li>Advanced Wed Builder</li>
+          <li>No SSL Certificate</li>
+          <li>Unlimited Support</li>
+        </ul>
+        <button>Add To Cart</button>
+      </div>
+      <div class=" CARD">
+        <h3>Premium</h3>
+        <h1>$49 <span> /month </span> </h1>
+        <ul>
+          <li>100 Website</li>
+          <li>100GB Disk Space</li>
+          <li>Free Email Address</li>
+          <li>Advanced Wed Builder</li>
+          <li>No SSL Certificate</li>
+          <li>Unlimited Support</li>
+        </ul>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

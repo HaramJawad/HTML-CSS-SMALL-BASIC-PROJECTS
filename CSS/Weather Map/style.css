@@ -1,0 +1,109 @@
+* 
+{
+ margin: 0;
+ padding: 0;
+}
+main 
+{
+  display:flex;
+  justify-content:center;
+  margin:30px 0;
+}
+.container 
+{
+width:900px;
+height:350px;
+background-color:white;
+display:flex;
+justify-content:center;
+border:2px solid lightgrey;
+border-radius:8px
+}
+.weather-card 
+{
+  background-color:white;
+  color:black;
+  width:500px;
+  height:200px;
+  margin:12px 0;
+  border:2px solid lightgrey;
+  border-radius:8px;
+}
+.heading
+{
+  width:500px;
+  height:100px;
+  background-color:blue;
+  display:flex;
+  justify-content:space-between;
+  background-color:white;
+}
+.weather 
+{
+  margin:25px 25px;
+}
+.temp 
+{
+  margin:25px 25px;
+}
+.paragraph 
+{
+  color:grey;
+}
+.card-1 
+{
+  display:inline-flex;
+}
+.days 
+{
+  display:inline-flex;
+}
+.day1
+{
+  margin:0 35px;
+}
+.day2 
+{
+  margin:0 35px;
+}
+
+.day3 
+{
+  margin:0 35px;
+}
+.day4 
+{
+  margin:0 35px;
+}
+.day5 
+{
+  margin:0 40px;
+}
+.card-2 
+{
+  display:inline-flex;
+}
+.degree 
+{
+  display:inline-flex;
+}
+.deg1 
+{
+  margin:20px 35px;
+}
+.deg2 
+{
+  margin:20px 40px;
+}
+.deg3 
+{
+  margin:20px 40px;
+}
+.deg4 
+{
+  margin:20px 40px;
+}
+.deg5 
+{
+  margin:20px 35px;
+}
